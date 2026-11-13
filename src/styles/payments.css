@@ -1,0 +1,18 @@
+.pix-qr {
+  display: block;
+  width: 210px;
+  height: 210px;
+  object-fit: contain;
+  margin: 24px auto;
+}
+.pix-code {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  font-size: 11px !important;
+}
+button:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}

@@ -1,0 +1,5 @@
+data/
+artigos/
+docs/referencias/
+.env
+node_modules/

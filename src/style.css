@@ -1,0 +1,6 @@
+/* Cascade order is intentional: defaults, screens, components, breakpoints, PIX. */
+@import url('./styles/base.css');
+@import url('./styles/catalog.css');
+@import url('./styles/components.css');
+@import url('./styles/responsive.css');
+@import url('./styles/payments.css');

@@ -1,0 +1,80 @@
+# Variáveis de ambiente: publicar apenas o modelo sem credenciais.
+.env
+.env.*
+*.env
+*.env.*
+!/.env.example
+
+# Bancos locais, sessões, pedidos e cópias de dados.
+/data/
+*.sqlite*
+*.db
+*.db-*
+*.dump
+*.bak
+*.backup
+
+# Credenciais, tokens e chaves privadas.
+.aws/
+.ssh/
+.gnupg/
+.azure/
+.kube/
+.config/gcloud/
+.docker/config.json
+.npmrc
+.netrc
+.pypirc
+.git-credentials
+credentials.json
+credentials.*.json
+service-account*.json
+service_account*.json
+secrets/
+.secrets/
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# Dependências, caches e saídas geradas.
+node_modules/
+/dist/
+/build/
+coverage/
+.nyc_output/
+.cache/
+.npm/
+*.tsbuildinfo
+*.log
+logs/
+
+# Pacotes de entrega podem conter cópias de arquivos privados.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Configuração local de ferramentas, editores e sistema operacional.
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Pasta local criada por engano a partir de uma URL de repositório.
+/https:/
